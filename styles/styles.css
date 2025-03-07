@@ -1,0 +1,11 @@
+body{
+    background-image: url(../images/HeroImage.jpg);
+}
+ul{
+    list-style-type: none;
+}
+#home{
+    position: relative;
+    left:93%;
+    bottom: 30px;
+}
