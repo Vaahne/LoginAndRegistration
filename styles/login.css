@@ -1,0 +1,106 @@
+body{
+    background-image: url(../images/HeroImage.jpg);
+    min-width: 340px; /* minimum width of the browser that wont allow it to shrink further*/
+}
+ul{
+    list-style-type: none;
+    position: relative;    
+}
+label{
+    display: block;
+    position: relative;
+    /* text-align: left; */
+    right: 70px;
+    color:#34260c;
+}
+.passwordLabel{
+    right: 110px;
+}
+input{
+    width: 70%;
+    max-width: 270px;
+    text-align: center;
+    border: 0;
+    background-color: rgb(157, 93, 33);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 4px 5px;
+    color:white;
+}
+input::placeholder{
+    color: rgb(65, 44, 44);
+}
+input[type="email"]{
+    margin-bottom:14px;
+}
+div a{
+    position: relative;
+    left: 130px;   
+    text-decoration: none;
+    color: rgb(8, 45, 75);
+}
+#home{
+    position: relative;
+    left:93%;
+    bottom: 27px;
+    /* float:right; */
+    /* margin-left: 20px; */
+}
+.passwordContainer a{
+    /* float: right; */
+    display: flex;
+    justify-content: space-around;
+    left: 100px;
+    bottom: 20px;
+}
+
+ #password{
+    margin-bottom:10px ;
+ }
+.headerSection{
+    background-color: rgb(235, 168, 87);
+    padding: 2px;
+}
+.container{
+    background-color: rgb(167, 112, 36);
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    margin: 40px auto;
+}
+li img{
+    border-radius: 30px;
+}
+#login{
+    background-color: rgb(5, 94, 161);
+    color: white;
+    padding: 15px;
+    margin: 17px;
+    width: 340px;
+}
+#register{
+    display: block;
+    text-decoration: none;
+    border: 1px solid green;
+    border-radius: 14px;
+    background-color: rgb(52, 157, 7);
+    padding: 10px 5px;
+    margin: 24px;
+    width: 270px;
+    position: relative;
+    left:40px;
+    color:white;
+}
+form{
+    text-align: center;
+    margin: auto;
+}
+h2{
+    color:  rgb(87, 77, 49);
+    margin-top:3px;
+}
+.loginLogo{
+    margin-top: 13px;
+}
