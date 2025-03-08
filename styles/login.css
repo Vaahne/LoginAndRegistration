@@ -4,7 +4,7 @@ body{
 }
 ul{
     list-style-type: none;
-    position: relative;    
+    /* position: relative;     */
 }
 label{
     display: block;
@@ -14,7 +14,7 @@ label{
     color:#34260c;
 }
 .passwordLabel{
-    right: 110px;
+    right: 99%;
 }
 input{
     width: 70%;
@@ -22,7 +22,7 @@ input{
     text-align: center;
     border: 0;
     background-color: rgb(157, 93, 33);
-    border-radius: 5px;
+    border-radius: 20px;
     padding: 10px;
     margin: 4px 5px;
     color:white;
@@ -32,6 +32,7 @@ input::placeholder{
 }
 input[type="email"]{
     margin-bottom:14px;
+   
 }
 div a{
     position: relative;
@@ -90,16 +91,20 @@ li img{
     margin: 24px;
     width: 270px;
     position: relative;
-    left:40px;
+    left:0;
     color:white;
 }
 form{
-    text-align: center;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 h2{
     color:  rgb(87, 77, 49);
     margin-top:3px;
+    text-shadow: 1px 1px white;
+    font-size: 30px;
 }
 .loginLogo{
     margin-top: 13px;
