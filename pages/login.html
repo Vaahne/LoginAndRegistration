@@ -4,29 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
+    <link rel="stylesheet" href="../styles/styles.css"/>
     <link rel="stylesheet" href="../styles/login.css">
 </head>
 <body>
     <main>
         <nav class="headerSection">
-            <ul>
-                <li><img src="../images/bbg_logo.png" alt="BBG Logo" width="90px"/></li>
-                <li><a id="home" href="../index.html">Home</a></li>
-            </ul>
+                <div class="box" id="box1"><img src="../images/bbg_logo.png" alt="BBG Logo" width="90px"/></div>
+                <div class="box" id="box2"><a id="home" href="../index.html"><img id="homeImg" src="../images/home_logo.jpg" width="45px" alt="Home Logo"/></a></div>
         </nav>
         <div class="container">
             <img class="loginLogo" src="../images/login_logo.png" width="50px" alt="login logo">
             <h2>Login</h2>
             <form >                
-                <label for="email">Email Id or User Name</label>
+                
                 <input type="email" id="email" placeholder="Enter your email" required> 
-                <div class="passwordContainer">                
-                    <label class="passwordLabel" for="password">Password </label>
-                    <a href="./forgetpassword.html">Forget password?</a>
-                </div>
+                <!-- <div class="passwordContainer">                 -->
+                <!-- <a id="forgetPassword" href="./forgetpassword.html">Forget password?</a>
+                </div> -->
                 <input type="password" id="password" placeholder="Enter your Password" required>                           
-                <input id="login" type="submit" value="Login"/>
-                <a id="register" href="./register.html">Create an Account</a>
+                <input id="loginButton" type="submit" value="Login"/>
+                <a id="forgotPassword" href="">Forget password?</a>
+                <a id="registerLink" href="./register.html">Create an Account</a>
             </form>
         </div>
     </main>

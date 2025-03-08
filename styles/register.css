@@ -1,7 +1,4 @@
-.headerSection{
-    background-color: rgb(235, 168, 87);
-    padding: 2px;
-}
+
 body{
     background-image: url(../images/HeroImage.jpg);
     min-width: 330px;
@@ -13,6 +10,7 @@ body{
 ul{
     list-style-type: none;
 }
+
 .container{
     border-radius: 2px;
     margin: 12px auto;
@@ -27,21 +25,29 @@ label{
     color:#34260c;
 }
 input{
+    width: 70%;
+    max-width: 270px;
+    text-align: center;
+    border: 0;
+    background-color: rgb(157, 93, 33);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 4px 5px;
+    color:white;
+ }
+/* input{
     display: block;
     margin: 2px 13px;
     width: 70%;
     max-width: 330px;
     text-align: center;
-    border: 0;
+    border-radius: 20px;
     background-color: rgb(157, 93, 33);
     padding: 13px;
     color: white;
-}
-#home{
-    position: relative;
-    left:93%;
-    bottom: 30px;
-}
+} */ */
+
+
 input::marker{
     border: 2px solid red;
 }

@@ -4,31 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register form</title>
+    <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="../styles/register.css">
 </head>
 <body>
-    <nav class="headerSection">
-        <ul>
-            <li><img src="../images/bbg_logo.png" alt="BBG Logo" width="90px"/></li>
-           <li><a id="home" href="../index.html">Home</a></li>
-        </ul>
-    </nav>
-    <div class="container">
-        <img src="../images/login_logo.png" id="userLogo" alt="User Logo" width="50px">
-        <h2>Sign UP</h2>
-        <form>
-           <label>Email<input type="email" placeholder="Enter your Email" name="email"></label><br/>
-            <label>Password<input type="password" placeholder="Enter your Password" name="password"></label><br/>
-            <label>Confirmation Password<input placeholder="Confirm your Password" type="password" name="cpassword"></label><br/>
-            <div class="genderContainer">
-                Gender: 
-                <label >Male<input type="radio" name="gender" value="male"> </label>
-                <label >Female<input type="radio" name="gender" value="female"></label>
-            </div>
-        <label>Date of Birth <input type="date"></label>
-        <input type="submit" id="register" value="Register" />
-        <a href="./login.html" id="login">Already have an account?</a>
-        </form>
-    </div>
+    <main>
+        <nav class="headerSection">
+            <div class="box" id="box1"><img src="../images/bbg_logo.png" alt="BBG Logo" width="90px"/></div>
+            <div class="box" id="box2"><a id="home" href="../index.html"><img id="homeImg" src="../images/home_logo.jpg" width="45px" alt="Home Logo"/></a></div>
+        </nav>
+        <div class="container">
+            <img src="../images/login_logo.png" id="userLogo" alt="User Logo" width="50px">
+            <h2>Sign UP</h2>
+            <form>
+            <input type="email" placeholder="Enter your email" name="email" required>
+                <input type="password" placeholder="Enter your password" name="password" required>
+                <input placeholder="Confirm your password" type="password" name="cpassword" required>
+                <input type="text" name="username" id="username" placeholder="Enter your user name" required>
+                <div class="genderContainer">
+                    Gender: 
+                    <label >Male<input type="radio" name="gender" value="male"> </label>
+                    <label >Female<input type="radio" name="gender" value="female"></label>
+                </div>
+            <label>Date of Birth <input type="date"></label>
+            <input type="submit" id="register" value="Register" />
+            <a href="./login.html" id="login">Already have an account?</a>
+            </form>
+        </div>
+    </main>
 </body>
 </html>

@@ -2,66 +2,7 @@ body{
     background-image: url(../images/HeroImage.jpg);
     min-width: 340px; /* minimum width of the browser that wont allow it to shrink further*/
 }
-ul{
-    list-style-type: none;
-    /* position: relative;     */
-}
-label{
-    display: block;
-    position: relative;
-    /* text-align: left; */
-    right: 70px;
-    color:#34260c;
-}
-.passwordLabel{
-    right: 99%;
-}
-input{
-    width: 70%;
-    max-width: 270px;
-    text-align: center;
-    border: 0;
-    background-color: rgb(157, 93, 33);
-    border-radius: 20px;
-    padding: 10px;
-    margin: 4px 5px;
-    color:white;
-}
-input::placeholder{
-    color: rgb(65, 44, 44);
-}
-input[type="email"]{
-    margin-bottom:14px;
-   
-}
-div a{
-    position: relative;
-    left: 130px;   
-    text-decoration: none;
-    color: rgb(8, 45, 75);
-}
-#home{
-    position: relative;
-    left:93%;
-    bottom: 27px;
-    /* float:right; */
-    /* margin-left: 20px; */
-}
-.passwordContainer a{
-    /* float: right; */
-    display: flex;
-    justify-content: space-around;
-    left: 100px;
-    bottom: 20px;
-}
 
- #password{
-    margin-bottom:10px ;
- }
-.headerSection{
-    background-color: rgb(235, 168, 87);
-    padding: 2px;
-}
 .container{
     background-color: rgb(167, 112, 36);
     border-radius: 4px;
@@ -74,22 +15,31 @@ div a{
 li img{
     border-radius: 30px;
 }
-#login{
+#loginButton{
     background-color: rgb(5, 94, 161);
     color: white;
-    padding: 15px;
-    margin: 17px;
-    width: 340px;
+    padding: 0.8rem;
+    margin: 1rem;
+    /* width: %; */
 }
-#register{
+#forgotPassword{
+    display: block;
+    text-decoration: none;
+    border-radius: 14px;
+    background-color: transparent;
+    color:rgb(17, 17, 203);
+    font-size: 18px;
+    
+}
+#registerLink{
     display: block;
     text-decoration: none;
     border: 1px solid green;
-    border-radius: 14px;
+    border-radius: 18px;
     background-color: rgb(52, 157, 7);
     padding: 10px 5px;
     margin: 24px;
-    width: 270px;
+    width: 60%;
     position: relative;
     left:0;
     color:white;
@@ -98,7 +48,7 @@ form{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center;   
 }
 h2{
     color:  rgb(87, 77, 49);
@@ -106,6 +56,42 @@ h2{
     text-shadow: 1px 1px white;
     font-size: 30px;
 }
-.loginLogo{
-    margin-top: 13px;
+#box1{
+    margin-top: 1%;
 }
+#box2{
+    margin-right: 10%;
+    top:0rem;
+    position: relative;
+    /* left: 130px;    */
+    color: rgb(8, 45, 75);
+}
+
+/*.passwordContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 100%; */
+    /* flex-wrap: wrap;
+    margin-right:  2.7%; */
+/* } */
+/* #forgotPassword{
+    align-self:flex-start;
+    position: absolute !important;
+    margin-right: auto;
+} */
+/* .passwordContainer a{
+    float: right;  *//*
+    display: flex;
+    justify-content: space-around;
+    left: 70%;
+    bottom: 1.2rem;
+} */
+
+ /* #password{
+    margin-bottom:10 ;
+ } */
+  /* #forgotPassword{
+        align-self:flex-start;
+  } */
+ 
